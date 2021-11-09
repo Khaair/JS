@@ -1,5 +1,5 @@
 
-    var array1 = [15,30];
+    var array1 = [18,30];
     var array2 = [10,20];
 
     var output = array1.concat(array2);
