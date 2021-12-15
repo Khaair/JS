@@ -3,13 +3,13 @@ var num = s.toString()
 
 
 var newArr = num.split("")
-var mapp = newArr.map(function(val){
-  return val * val
+var mapp = newArr.reduce(function(val,val2){
+  return val + val2
 })
-
+console.log(map)
 var joinn = mapp.join('')
 
 var number = parseInt(joinn)
 
-console.log(number)
+
 
