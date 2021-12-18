@@ -31,5 +31,5 @@ function descendingOrder(n){
     return intt
   }
   
-  console.log(descendingOrder("3342453"))
+  console.log(descendingOrder("3342453")
 
