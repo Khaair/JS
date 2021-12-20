@@ -12,3 +12,19 @@ function getSum(a,b){
     }
     return count;
   }
+
+  
+
+// function getSum( a,b )
+// {
+//     if(a != b){
+//      var sum  = a+b
+//      return sum
+//    }
+  
+//   else{
+//     return a;
+//   }
+// }
+
+// console.log(getSum(-532,149))
