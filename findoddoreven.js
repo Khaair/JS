@@ -23,28 +23,17 @@ function findOutlier(integers){
   
   
   
+  let arr = [2, 4, 0, 100, 4, 11, 2602, 36]
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  // let arr = [2, 4, 0, 100, 4, 11, 2602, 36]
-  
-  // for(i = 0; i <= arr.length-1 ; i++){
+  for(i = 0; i <= arr.length-1 ; i++){
     
-  //   if(arr[i] % 2 == 1){
-  //     console.log(arr[i])
-  //   }
+    if(arr[i] % 2 == 1){
+      console.log(arr[i])
+    }
     
-  //   else{
-  //      console.log(arr[i])
-  //   }
+    else{
+       console.log(arr[i])
+    }
     
   
-  // }
+  }
