@@ -31,16 +31,16 @@ console.log((squareSum([])))
 
 
 
-// let numbers = [2, 4, 6, 8]
+let numbers = [2, 4, 6, 8]
 
-// let v = numbers.map(x => x * 2)
+let v = numbers.map(x => x * 2)
 
 
-// let h = v.reduce(function(accumulator, currentValue) {
-//   return accumulator + currentValue;
-// }, 0);
+let h = v.reduce(function(accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0);
 
-// console.log(h)
+console.log(h)
 
 
 
