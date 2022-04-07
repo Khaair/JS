@@ -13,20 +13,20 @@ console.log(sum)
 
 
 
-// function squareSum(numbers){
+function squareSum(numbers){
 
 
-// let v = numbers.map(x => x ** 2)
+let v = numbers.map(x => x ** 2)
 
 
-// let h = v.reduce(function(a,b) {
-//   return a + b;
-// }, 0);
+let h = v.reduce(function(a,b) {
+  return a + b;
+}, 0);
   
-//   return h
-// }
+  return h
+}
 
-// console.log((squareSum([])))
+console.log((squareSum([])))
 
 
 
