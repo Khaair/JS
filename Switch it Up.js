@@ -64,3 +64,20 @@ function switchItUp(number){
 function getChar(c){
     return String.fromCharCode(c); // --> 'a'
   }
+
+
+  function noBoringZeros(n) {
+    let str = n.toString().split('');
+    for (let i = 0; i <= str.length; i++){
+      if(str[str.length-1] == '0'){
+      str.pop(str[str.length-1]);
+  
+    }
+      
+  
+  }
+  
+  return +str.join("")
+  }
+  
+  console.log(noBoringZeros(960000))
