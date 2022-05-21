@@ -59,4 +59,8 @@ function switchItUp(number){
         }
       
 }
-    
+
+
+function getChar(c){
+    return String.fromCharCode(c); // --> 'a'
+  }
