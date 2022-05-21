@@ -51,7 +51,12 @@ function switchItUp(number){
         return "Zero"
     
     }
+
     
+    function unusualFive() {
+        let five = 'Five!';
+        return five.length;
+        }
       
 }
     
