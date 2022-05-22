@@ -32,3 +32,27 @@ for(let i = 0; i <=a.length-1;i++){
 }
 
 console.log(check(['what', 'a', 'great', 'kata'], 'b'))
+
+
+
+
+
+let str = "hii"
+
+
+
+let arr2 = []
+
+
+
+if(typeof(str)=="string"){
+arr2.push(str)
+let str2 = arr2.join("")
+
+
+console.log(str.concat(str2))
+}
+else{
+  console.log("Not a string")
+}
+
