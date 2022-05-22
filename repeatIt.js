@@ -12,3 +12,31 @@ var repeatIt = function (str, n) {
     return str2;
   }
 };
+
+
+
+
+
+
+
+
+
+
+let str = "The greatest victory is that which requires no battle"
+
+let arr = str.split(" ")
+
+let arr2 = []
+for(let i = 0; i  <= arr.length-1;i++){
+
+arr2.unshift(arr[i])
+}
+
+  console.log(arr2.join(" "))
+
+
+
+//  s.split("").reverse().join("");
+
+  
+
