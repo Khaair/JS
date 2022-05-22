@@ -12,3 +12,23 @@ function position(letter){
     }
     
     console.log(position("a"))
+
+    
+function check(a, x) {
+  let arr2 =[]
+
+for(let i = 0; i <=a.length-1;i++){
+
+  if(a[i]==x){
+   arr2.push(a[i])
+  }
+    
+  
+
+}
+  
+      return arr2.join()==x
+
+}
+
+console.log(check(['what', 'a', 'great', 'kata'], 'b'))
